@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position:fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+.logo{
+    text-decoration: none;
+    color: rgb(78, 101, 160);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    color: rgb(90, 173, 222);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: rgb(44, 42, 165);
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(rayenostora.jpg) no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.main h2{
+    color: white;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    color: rgb(151, 151, 201);
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.main h3 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main h2 span:hover {
+    color: rgb(234, 211, 5);
+    transition: 0.4s;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.social-icons a:hover{
+    color: rgb(234, 211, 5);
+}
+
+.social-icons {
+    align-items: center;
+}
